@@ -153,7 +153,7 @@ Issueを作成するか、Pull Requestを送ってください。
 
 ## 📄 ライセンス
 
-© 2024 Keisuke Sekiguchi. All rights reserved.
+© 2025 Keisuke Sekiguchi. All rights reserved.
 
 個人利用・学習目的での参照は自由です。商用利用の際はご連絡ください。
 
