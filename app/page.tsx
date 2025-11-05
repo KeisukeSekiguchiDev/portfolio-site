@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 hover:text-purple-300 transition-colors duration-300">
             Keisuke Sekiguchi
           </h1>
           <p className="text-2xl md:text-3xl text-purple-300 mb-4">
@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* About Section */}
       <section className="container mx-auto px-6 py-16">
-        <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-lg rounded-2xl p-8 md:p-12">
+        <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-lg rounded-2xl p-8 md:p-12 shadow-xl hover:shadow-2xl hover:bg-white/15 transition-all duration-300">
           <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
           <div className="space-y-4 text-gray-300">
             <p className="text-lg">
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-white mb-8 text-center">Tech Stack</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-xl hover:shadow-2xl hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl font-semibold text-purple-300 mb-4">Languages</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>C++ / C#</li>
@@ -74,7 +74,7 @@ export default function Home() {
                 <li>Rust</li>
               </ul>
             </div>
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-xl hover:shadow-2xl hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl font-semibold text-purple-300 mb-4">Frameworks</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>.NET Core</li>
@@ -83,7 +83,7 @@ export default function Home() {
                 <li>Tailwind CSS</li>
               </ul>
             </div>
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-xl hover:shadow-2xl hover:bg-white/15 transition-all duration-300">
               <h3 className="text-xl font-semibold text-purple-300 mb-4">AI Tools</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>Claude Code</li>
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-white mb-8 text-center">Projects</h2>
           <div className="space-y-6">
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8">
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 shadow-xl hover:shadow-2xl hover:bg-white/15 transition-all duration-300">
               <h3 className="text-2xl font-semibold text-white mb-3">準備中</h3>
               <p className="text-gray-300 mb-4">
                 現在、5つのプロジェクトを開発中です。
